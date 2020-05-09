@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <head>
     <meta charset="UTF-8">
     <title>HPlus</title>
@@ -26,7 +28,7 @@
     </div><!-- container tagline -->
 </header><!-- #home -->
 <section id="error" class="section">
-<p class = "error">Sorry, dementors have attacked, Professor McGonagall is attending to it:)</p>
+<p class = "error"><spring:message code="label.errormsg"/></p>
 </section>
 <footer class="footer">
     <div class="container">
